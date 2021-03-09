@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F5DFBB;
+}
+
+.mainContainer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vmin;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.topRow {
+  display: flex;
+  justify-content: center;
+  border: 1px black;
+  width: 100%;
+}
+
+.midRow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.botRow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#topLeft {
+  background-color: #DDE0D8;
+  width: 30vmin;
+  height: 30vmin;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#topRight {
+  background-color: #E96A11;
+  width: 30vmin;
+  height: 30vmin;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#midLeft {
+  background-color: #E96A11;
+  width: 30vmin;
+  height: 30vmin;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#midRight {
+  background-color: #DDE0D8;
+  width: 30vmin;
+  height: 30vmin;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#botLeft {
+  background-color: #DDE0D8;
+  width: 30vmin;
+  height: 30vmin;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#botRight {
+  background-color: #E96A11;
+  width: 30vmin;
+  height: 30vmin;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#topRight-triangle {
+  width: 0vmin;
+  height: 0vmin;
+  border-top: 30vmin solid #030005;
+  border-left: 30vmin solid transparent;
+  position: absolute;
+}
+
+#midLeft-triangle {
+  width: 0vmin;
+  height: 0vmin;
+  border-top: 30vmin solid #030005;
+  border-right: 30vmin solid transparent;
+  position: absolute;
+}
+
+#botRight-triangle {
+  width: 0vmin;
+  height: 0vmin;
+  border-bottom: 30vmin solid #030005;
+  border-left: 30vmin solid transparent;
+  position: absolute;
+}
+
+@font-face {
+  font-family: BasicCommercial_LT_Bold;
+  src: url("BasicCommercial_LT_Bold.ttf");
+}
+
+.topRight-text {
+  font-family: BasicCommercial_LT_Bold;
+  flex-direction: column;
+  padding-left: 12px;
+  padding-bottom: 30px;
+}
+
+.midRight-text {
+  font-family: BasicCommercial_LT_Bold;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 12px;
+}
+
+.botRight-text {
+  font-family: BasicCommercial_LT_Bold;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 12px;
+}
+
+.title {
+  justify-content: flex-start;
+  padding-left: 12px;
+  padding-top: 80px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+p {
+  font-size: 1.5vmin;
+  line-height: 2px;
+}
+
+h1 {
+  font-family: BasicCommercial_LT_Bold;
+  font-size: 9vmin;
+}
